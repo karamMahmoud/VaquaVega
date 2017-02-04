@@ -1,0 +1,1 @@
+"{\n\t{\n  \"data\": {\"url\": uploads\/53\/web.BAK},\n  \"mark\": \"bar\",\n  \"encoding\": {\n    \"x\": {\"field\": \"Cylinders\", \"type\": \"ordinal\"},\n    \"y\": {\"aggregate\": \"mean\", \"field\": \"Acceleration\", \"type\": \"quantitative\"}\n  }\n}\n\n}"

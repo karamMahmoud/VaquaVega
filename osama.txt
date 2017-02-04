@@ -1,0 +1,12 @@
+$x = '<table border="5"><thead>';
+    for($i = 0; $i<count($GLOBALS['attr']); $i++)
+    {
+        $x.='<th>'.$GLOBALS['attr'][$i].'</th>';
+    }
+    $x.='</thead>';
+    for($i = 0; $i<count($GLOBALS['firstAttr']); $i++)
+    {
+        $x.='<tr><td>'.$GLOBALS['firstAttr'][$i].'</td><td>'.$GLOBALS['secondAttr'][$i].'</td></tr>';
+
+   }
+    $x.='</table>';
